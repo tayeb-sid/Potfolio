@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Tayeb Sid</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="navbar-title"><a href="index.html">TayebSid</a></div>
+
+        <div class="hamburger" id="hamburger"><div>&#9776;</div></div>
+      </div>
+
+      <div class="nav-right">
+        <ul class="navbar-links" id="navbar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home-section">
+      <div class="home-section-text">
+        <div class="home-section-title">
+          <h3 class="my-name">👋 Hey there! I'm Tayeb 😎</h3>
+          <h1 class="my-occupation">Software Engineer</h1>
+        </div>
+
+        <div class="home-section-description">
+          <p>
+            I'm Tayeb Sid Mohand, a 22-year-old software engineer based in
+            France passionate about creating smart, impactful solutions. I love
+            coding, designing, and turning ideas into reality 🚀.
+          </p>
+        </div>
+
+        <div class="home-section-btns">
+          <a href="#contact-section"
+            ><button id="get-in-touch-btn">✉️ Email-me</button></a
+          ><a href="#"
+            ><button
+              id="cv-btn"
+              onclick="window.open('documents/CV.pdf', '_blank');"
+            >
+              📥 Resume
+            </button></a
+          >
+        </div>
+      </div>
+      <div class="home-section-img">
+        <img class="dev_avatar" src="imgs/me.png" />
+      </div>
+    </div>
+    <div class="projects-section" id="projects-section">
+      <h2 class="projects-section-title">
+        ✨Some Cool Projects I've Worked On
+      </h2>
+      <div class="projects-grid">
+        <div class="card-container">
+          <div class="card-title">Suiviny</div>
+          <div id="suiviny-img-container">
+            <img src="imgs/3.png" alt="" />
+            <img src="imgs/6.png" alt="" />
+            <img src="imgs/2.png" alt="" />
+            <img src="imgs/5.png" alt="" />
+            <img src="imgs/7.png" alt="" />
+            <img src="imgs/8.png" alt="" />
+            <img src="imgs/1.png" alt="" />
+            <img src="imgs/4.png" alt="" />
+          </div>
+          <div class="card-description">
+            <p>
+              Suiviny is an Android app for daily monitoring of diabetic
+              patients, created using <span class="tech">Java</span>,
+              <span class="tech">Android Studio</span>,
+              <span class="tech">Firebase</span>, and
+              <span class="tech">SQLite</span>.
+            </p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card-title">Rock Paper Scossors.</div>
+          <img class="card-img" src="imgs/rockpaperscissors.png" alt="" />
+          <div class="card-description">
+            <p>
+              A simple Rock Paper Scissors game web app created using
+              <span class="tech">HTML</span>, <span class="tech">CSS</span>, and
+              <span class="tech">JavaScript</span>.
+            </p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card-title">stockify</div>
+          <img class="card-img" src="imgs/stockify.png" alt="" />
+          <div class="card-description">
+            <p>
+              Stockify is an inventory management web app created using
+              <span class="tech">HTML</span>, <span class="tech">CSS</span>,
+              <span class="tech">JavaScript</span>, and
+              <span class="tech">Django</span>.
+            </p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card-title">MKP Solver</div>
+          <img class="card-img" src="imgs/mkp.png" alt="" />
+          <div class="card-description">
+            <p>
+              MKP Solver is a tool for solving the famous NP-complete problem,
+              the Multiple Knapsack Problem, using
+              <span class="tech">Java</span>. It employs different approaches to
+              find optimal solutions.
+            </p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card-title">Pong 🏓</div>
+          <img class="card-img" src="imgs/pong.png" alt="" />
+          <div class="card-description">
+            <p>
+              A simple pong game created using
+              <span class="tech">🐍 Python</span> and
+              <span class="tech">Pygame</span>.
+            </p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card-title">Notes App 📝</div>
+          <img class="card-img" src="imgs/notesapp.png" alt="" />
+          <div class="card-description">
+            <p>
+              A simple notes app created in
+              <span class="tech">HTML</span>, <span class="tech">CSS</span> and
+              <span class="tech">JavaScript</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-section" id="contact-section">
+      <h2 class="contact-section-title">📞 Contact</h2>
+      <div class="contact-info">
+        <a
+          href="https://www.linkedin.com/in/tayeb-sid-mohand-a33575221/"
+          target="_blank"
+        >
+          <img src="imgs/linkedin.png" alt="LinkedIn Icon" /> Tayeb Sid Mohand
+        </a>
+
+        <a href="mailto:tayebsidmoand@gmail.com">
+          <img src="imgs/gmail.png" alt="Email Icon" />
+          tayebsidmohand@gmail.com
+        </a>
+
+        <a href="tel:+33670575724">
+          <img src="imgs/whatsapp.png" alt="Phone Icon" /> +33 6 70 57 57 24
+        </a>
+
+        <a href="https://github.com/tayeb-sid" target="_blank">
+          <img src="imgs/github.png" alt="GitHub Icon" /> tayebsid
+        </a>
+      </div>
+    </div>
+    <a href="#" class="scroll-up-btn"
+      ><img src="imgs/scrollupbtn.png" alt=""
+    /></a>
+    <footer class="footer">
+      <p>
+        Made with <span style="color: teal">❤️</span> by TayebSid, © 2025 All
+        rights reserved.
+      </p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
