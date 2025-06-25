@@ -183,7 +183,7 @@ button {
     align-items: center;
     text-align: left;
     gap: 1.5rem;
-    width: 100%;
+    width: 80vw;
     border: 1px solid transparent;
     background: linear-gradient(to bottom, #2c3e50,teal, #2c3e50);;
     
